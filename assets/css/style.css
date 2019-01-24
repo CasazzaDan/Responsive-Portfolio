@@ -217,13 +217,43 @@ input[type=submit] {
 }
 
 @media (max-width: 980px){
+  .container {
+    width: 100%;
+    max-width: 680px;
+    margin: 0 auto;
+    clear: both;
+    float: left;
+  }
 
 }
 
 @media (max-width: 768px) {
+  .container {
+    width: 100%;
+    max-width: 730px;
+    margin: 0 auto;
+    clear: both;
+    
+  }
 
 }
 
 @media (max-width: 640px) {
 
+  .container {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    clear: both;
+    
+  }
+
+  header {
+    flex-basis: 100%;
+  }
+  #logo {
+    order: 1;
+  }
+
+  
 }
